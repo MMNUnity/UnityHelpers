@@ -2,6 +2,10 @@
 using UnityEditor;
 using UnityEngine;
 
+// By sarahnorthway
+// Use this to be able to set properties in the editor.
+// Put this script in Assets/Scripts
+
 [CustomPropertyDrawer(typeof(GetSetAttribute))]
 sealed class GetSetDrawer : PropertyDrawer
 {
