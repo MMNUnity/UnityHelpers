@@ -7,13 +7,10 @@ public class AudioEventDemo : AudioEvent
 {
     public AudioClip[] audioClips;
 
-    //public RangedFloat volume;
     public float volumeMin;
     public float volumeMax;
     public float pitchMin;
     public float pitchMax;
-
-    //[MinMaxRange()]
 
     public override void Play(AudioSource audioSource)
     {
